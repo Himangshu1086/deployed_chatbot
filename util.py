@@ -117,7 +117,7 @@ def chat_response(query):
     print(top_5_qns)
     write_file(top_5_qns)
     print(get_text())
-    time.sleep(2)
+    time.sleep(1)
     if(top_5_match[0][0]>=0.40):
             max_score_idx = top_5_match[0][1]
             return question_set.iloc[max_score_idx].Answer

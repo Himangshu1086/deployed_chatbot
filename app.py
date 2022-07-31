@@ -18,6 +18,10 @@ def fun():
     return render_template('home.html')
 
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 
 
 @app.route('/submit',methods=['GET','POST'])
@@ -42,4 +46,4 @@ def top_five_query():
 
 
 if __name__=='__main__':
-    app.run()
+    app.run(debug=True)
