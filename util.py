@@ -10,7 +10,7 @@ import json
 import time
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
-# nltk.download('punkt')
+nltk.download('punkt')
 
 
 
