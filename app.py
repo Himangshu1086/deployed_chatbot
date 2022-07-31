@@ -27,7 +27,6 @@ def submit():
         qns = res['query']
         ans = util.chat_response(qns)
         qn = util.get_text()
-        print(qn)
         return render_template('home.html' , query = qns , answer=ans , top_five = qn)
 
 
