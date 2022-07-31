@@ -5,3 +5,4 @@ scikit-learn
 nltk
 Jinja2
 numpy
+gunicorn==20.1.0
